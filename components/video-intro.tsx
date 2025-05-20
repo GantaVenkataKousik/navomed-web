@@ -26,7 +26,9 @@ export function VideoIntro() {
     <section className="py-24" ref={containerRef}>
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <span className="pill bg-teal-100 text-teal-600 text-sm font-medium mb-4">Watch & Learn</span>
+          <div className="flex justify-center mb-4">
+            <span className="pill bg-teal-100 text-teal-600 text-sm font-medium">Watch & Learn</span>
+          </div>
           <h2 className="text-3xl md:text-4xl font-bold gradient-text inline-block mb-4">Discover eMbrace</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-teal-500 to-blue-500 mx-auto"></div>
         </div>

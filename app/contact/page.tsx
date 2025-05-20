@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { motion } from "framer-motion"
-import { MapPin, Phone, Mail, Clock } from "lucide-react"
+import { MapPin, Mail, Clock } from "lucide-react"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
@@ -40,7 +40,9 @@ export default function ContactPage() {
       {/* Hero Section */}
       <section className="pt-32 pb-16 relative overflow-hidden bg-gradient-to-b from-primary-50/50 to-white">
         <div className="container mx-auto px-4 text-center">
-          <span className="pill bg-primary-100 text-primary-600 text-sm font-medium mb-4">Contact Us</span>
+          <div className="flex justify-center mb-4">
+            <span className="pill bg-primary-100 text-primary-600 text-sm font-medium">Contact Us</span>
+          </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">Get in Touch</h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Have questions or need more information? We're here to help. Reach out to our team for assistance.
@@ -68,24 +70,8 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-gray-800 mb-1">Address</h3>
                     <p className="text-gray-600">
-                      Lab no 20A, 3rd floor, Aspire bionest,
-                      <br />
-                      UNIVERSITY OF HYDERABAD, Gachibowli,
-                      <br />
-                      Hyderabad, Serilingampalle (M),
-                      <br />
-                      Telangana 500032
+                      ISB, Hyderabad, Telangana 500032
                     </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start">
-                  <div className="mr-4 p-3 bg-gradient-to-r from-primary-500/10 to-secondary-500/10 rounded-full">
-                    <Phone className="h-6 w-6 text-primary-500" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-gray-800 mb-1">Phone</h3>
-                    <p className="text-gray-600">083412 43888</p>
                   </div>
                 </div>
 
@@ -95,7 +81,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-800 mb-1">Email</h3>
-                    <p className="text-gray-600">contact@cologybiosciences.com</p>
+                    <p className="text-gray-600">venkatakousikcse01@gmail.com</p>
                   </div>
                 </div>
 

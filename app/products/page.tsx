@@ -42,7 +42,9 @@ export default function ProductsPage() {
           </div>
           <div className="container mx-auto px-4 relative z-10">
             <div className="text-center mb-16">
-              <span className="pill bg-primary-100 text-primary-600 text-sm font-medium mb-4 inline-block">Key Features</span>
+              <div className="flex justify-center mb-4">
+                <span className="pill bg-primary-100 text-primary-600 text-sm font-medium inline-block">Key Features</span>
+              </div>
               <h2 className="text-3xl md:text-4xl font-bold gradient-text inline-block mb-4">
                 What Makes Our Products Different
               </h2>
@@ -67,7 +69,9 @@ export default function ProductsPage() {
 
           <div className="container mx-auto px-4 text-center relative z-10">
             <div className="glass-card max-w-3xl mx-auto p-12 rounded-2xl">
-              <span className="pill bg-white/80 text-primary-600 text-sm font-medium mb-4 inline-block">Ready to Start?</span>
+              <div className="flex justify-center mb-4">
+                <span className="pill bg-white/80 text-primary-600 text-sm font-medium inline-block">Ready to Start?</span>
+              </div>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
                 Transform Your Research with Our Products
               </h2>

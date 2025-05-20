@@ -72,7 +72,9 @@ export function WhyEmbraceSection() {
 
           <div className="lg:w-2/3">
             <div className="text-center lg:text-left">
-              <span className="pill bg-primary-100 text-primary-600 text-sm font-medium mb-4">Our Approach</span>
+              <div className="flex justify-center lg:justify-start mb-4">
+                <span className="pill bg-primary-100 text-primary-600 text-sm font-medium">Our Approach</span>
+              </div>
               <h2 className="text-3xl md:text-4xl font-bold gradient-text inline-block mb-4">Why eMbrace?</h2>
               <div className="w-24 h-1 bg-gradient-to-r from-teal-500 to-blue-500 mx-auto lg:mx-0 mb-6"></div>
               <p className="text-gray-600 max-w-2xl mx-auto lg:mx-0 mb-8">

@@ -68,7 +68,9 @@ export function FeatureCards() {
     <section className="py-24 bg-gradient-to-b from-white to-blue-50/30 relative" ref={ref}>
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <span className="pill bg-secondary-100 text-secondary-600 text-sm font-medium mb-4">Our Services</span>
+          <div className="flex justify-center mb-4">
+            <span className="pill bg-secondary-100 text-secondary-600 text-sm font-medium">Our Services</span>
+          </div>
           <h2 className="text-3xl md:text-4xl font-bold gradient-text inline-block mb-4">
             Comprehensive Mental Health Solutions
           </h2>

@@ -72,7 +72,9 @@ export function ResearchSection() {
     <section className="py-24 bg-gradient-to-b from-white to-blue-50/30 relative" ref={ref}>
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <span className="pill bg-blue-100 text-blue-600 text-sm font-medium mb-4">Our Research</span>
+          <div className="flex justify-center mb-4">
+            <span className="pill bg-blue-100 text-blue-600 text-sm font-medium">Our Research</span>
+          </div>
           <h2 className="text-3xl md:text-4xl font-bold gradient-text inline-block mb-4">
             Cutting-Edge Research Areas
           </h2>

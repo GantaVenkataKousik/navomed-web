@@ -56,7 +56,9 @@ export function ProductsSection() {
     <section className="py-24 relative" ref={ref}>
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <span className="pill bg-blue-100 text-blue-600 text-sm font-medium mb-4 inline-block">Our Products</span>
+          <div className="flex justify-center mb-4">
+            <span className="pill bg-blue-100 text-blue-600 text-sm font-medium inline-block">Our Products</span>
+          </div>
           <h2 className="text-3xl md:text-4xl font-bold gradient-text inline-block mb-4">Innovative Research Tools</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-indigo-600 mx-auto mb-6"></div>
           <p className="max-w-2xl mx-auto text-gray-600">
